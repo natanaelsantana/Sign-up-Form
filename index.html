@@ -11,36 +11,49 @@
 
 <body>
     <div class="main">
-        <img src="fotos/2125.jpg" style="width: 40vw; height: 90vh; object-fit: cover;">
+        
+        <img src="fotos/2125.jpg" style="width: 50vw; height: 95vh; object-fit: cover;">
         <div class="form-space">
             <div id="introduction-text">
                 <p>Discover the universe! <br>
-                    Join the best community in the games world <br>
+                    Join the best community in the games world
                     and conquer the unexplored</p>
 
             </div>
+
             <form action="#" method="post">
-                <label for="first_name">First Name:</label>
-                <input type="text" id="first_name" name="first_name" required>
 
-                <label for="last_name">Last Name:</label>
-                <input type="text" id="last_name" name="last_name" required>
+                <div class="input">
+                    <label for="first_name">First Name*</label>
+                    <input type="text" id="first_name" name="first_name" required>
+                </div>
+                <div class="input">
+                    <label for="last_name">Last Name*</label>
+                    <input type="text" id="last_name" name="last_name" required>
+                </div>
+                <div class="input">
+                    <label for="nickname">Nickname*</label>
+                    <input type="text" id="nickname" name="nickname" required>
+                </div>
 
-                <label for="nickname">Nickname:</label>
-                <input type="text" id="nickname" name="nickname" required>
+                <div class="input">
+                    <label for="email">Email* </label>
+                    <input type="email" id="email" name="email" placeholder="youremail@user.com" required>
+                </div>
 
+                <div class="input">
+                    <label for="password">Password* </label>
+                    <input type="password" id="password" name="password" required>
+                </div>
 
-                <label for="email">Email: </label>
-                <input type="email" id="email" name="email" placeholder="youremail@user.com" required>
-
-                <label for="password">Password: </label>
-                <input type="password" id="password" name="password" required>
-
-                <label for="password-confirm">Confirm password: </label>
-                <input type="password" id="password-confirm" name="password-confirm" required>
-
-                <input type="submit" value="Sign up">
-            </form>
+                <div class="input">
+                    <label for="password-confirm">Confirm password* </label>
+                    <input type="password" id="password-confirm" name="password-confirm" required>
+                </div>
+                <div class="button">
+                    <button type="submit">Discover!</button>
+                </div>
+                </form>
 
         </div>
     </div>
