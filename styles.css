@@ -95,7 +95,7 @@ button{
     box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750pxpx) {
 
     img {
         display:none;
