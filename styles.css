@@ -94,3 +94,21 @@ button{
             #f24645);
     box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
 }
+
+@media (max-width: 750px) {
+
+    img {
+        display:none;
+    }
+
+    body{
+       background-color: #000428;
+       background-image:url("fotos/2125.jpg");
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+    }
+
+
+
+}
